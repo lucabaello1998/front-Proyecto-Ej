@@ -10,6 +10,8 @@
   status = 200
 
 # Environment variables placeholder
-# Configure estas variables en Netlify Dashboard:
-# Site settings → Environment variables
-# VITE_API_URL = https://back-proyecto-ej.onrender.com
+# ⚠️ IMPORTANTE: Configure esta variable en Netlify Dashboard:
+# Site settings → Environment variables → Add a variable
+# Key: VITE_API_URL
+# Value: https://back-proyecto-ej.onrender.com
+# Luego haga un nuevo deploy para que tome efecto
