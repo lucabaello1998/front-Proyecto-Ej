@@ -1,18 +1,18 @@
 # Muestrario de Proyectos - Frontend
 
-## 🚀 Deployment en Vercel
+## 🚀 Deployment en Netlify
 
 ### Variables de entorno requeridas:
 
-1. Ve a tu proyecto en Vercel
-2. Settings → Environment Variables
+1. Ve a tu sitio en Netlify
+2. **Site settings → Environment variables**
 3. Agrega:
 
 ```
 VITE_API_URL=https://back-proyecto-ej.onrender.com
 ```
 
-4. Aplica a: Production, Preview, Development
+4. Guarda y redeploy el sitio
 
 ### Desarrollo Local
 
@@ -33,4 +33,5 @@ npm run dev
 
 - ⚠️ **NUNCA** subas el archivo `.env` a GitHub
 - ✅ El `.env.example` muestra qué variables se necesitan
-- ✅ Configura las variables de entorno directamente en Vercel
+- ✅ Configura las variables de entorno directamente en Netlify
+- ✅ El archivo `netlify.toml` configura el build automáticamente
